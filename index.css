@@ -3,7 +3,19 @@ body{
   
 }
 
+
+.bookmarkList{
+  border: 1px solid grey;
+  padding: 5px;
+}
+
 .newBookmark{
+  border: 1px solid grey;
+  padding: 5px;
+  align-items: center;
+}
+
+.info{
   border: 1px solid grey;
   padding: 5px;
 }
@@ -12,13 +24,16 @@ body{
   border: 1px solid grey;
 }
 
-.collapse{
+.expand{
   display: flex;
   flex-direction: row;
 }
 
 .saved{
   border: 1px solid grey;
+  padding: 5px;
 }
 
-
+.p{
+  flex: 1;
+}
