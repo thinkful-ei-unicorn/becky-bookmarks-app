@@ -1,0 +1,24 @@
+body{
+  text-align: center;
+  
+}
+
+.newBookmark{
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.collapsed{
+  border: 1px solid grey;
+}
+
+.collapse{
+  display: flex;
+  flex-direction: row;
+}
+
+.saved{
+  border: 1px solid grey;
+}
+
+
