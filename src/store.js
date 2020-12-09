@@ -49,7 +49,7 @@ const findAndDelete = function (id) {
 const setError = function (error) {
   this.error = error;
 };
-
+let view = 'default';
 const bookmarks = [];
 export default {
   bookmarks,
@@ -60,4 +60,5 @@ export default {
   findAndDelete,
   setError,
   findAndUpdate,
+  view,
 };
