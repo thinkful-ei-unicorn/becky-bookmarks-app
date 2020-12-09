@@ -13,12 +13,12 @@ const generateDefaultView = function () {
       <label for='filter'>Filter by rating:</label>
       <select tabindex="1" id="filter" name='filter'>
         <option value="">Select</option>
-        <option value="zero" selected>☆☆☆☆☆</option>
-        <option value="one">★☆☆☆☆</option>
-        <option value="two">★★☆☆☆</option>
-        <option value="three">★★★☆☆</option>
-        <option value="four">★★★★☆</option>
-        <option value="five">★★★★★</option>
+        <option value="0" selected>☆☆☆☆☆</option>
+        <option value="1">★☆☆☆☆</option>
+        <option value="2">★★☆☆☆</option>
+        <option value="3">★★★☆☆</option>
+        <option value="4">★★★★☆</option>
+        <option value="5">★★★★★</option>
       </select>
       </form>`;
 };
