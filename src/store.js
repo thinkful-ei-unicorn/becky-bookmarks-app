@@ -53,7 +53,7 @@ let view = 'default';
 const bookmarks = [];
 export default {
   bookmarks,
-  minimumRating: 0,
+  minimumRating: 2,
   findById,
   expand,
   addBookmark,
