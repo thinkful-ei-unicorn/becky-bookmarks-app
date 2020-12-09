@@ -148,7 +148,7 @@ const handleNewBookmarkSubmit = function () {
 const handleFilterView = function () {
   $('main').on('change', '#filter', event => {
     event.preventDefault();
-    let filter = parseInt($('option:selected').val());
+    let filter = $('#filter option:selected').val();
     let bookmarks = [...store.bookmarks];
     let filterView =[];
     console.log(filter);
