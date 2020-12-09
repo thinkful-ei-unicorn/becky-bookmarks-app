@@ -1,0 +1,92 @@
+* {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    padding: 5px;
+    
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+li {
+    list-style-type: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    color: white;
+    border: solid 3px black;
+    text-shadow: 2px 2px black;
+
+}
+
+label{
+    color: white;
+    padding: 10px;
+    text-shadow: 2px 2px black;
+
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    border: solid 3px black;
+}
+
+#link-title{
+    border-radius: 5px;
+    border: solid 3px black;
+    font-size: 17px;
+}
+
+#link-desc{
+    border-radius: 5px;
+    border: solid 3px #EEECE8;
+}
+#link-url{
+    border-radius: 5px;
+    border: solid 3px #EEECE8;
+}
+
+#filter{
+    border: solid 3px black;
+
+}
+button.item {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: solid 3px black;
+    text-shadow: 0 0 3px black;
+}
+
+button#new {
+    font-size: 20px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    border: solid 3px black;
+
+}
+
+.bookmark-list-item {
+    font-weight: bolder;
+}
+
+
