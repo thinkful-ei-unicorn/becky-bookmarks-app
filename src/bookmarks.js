@@ -98,7 +98,7 @@ const renderError = function () {
 const handleCloseError = function () {
   $('.error-container').on('click', '#cancel-error', () => {
     store.setError(null);
-    render();
+    renderError();
   });
 };
 
@@ -139,7 +139,7 @@ const handleNewBookmarkSubmit = function () {
         console.log('something diff');
         store.setError(error.message); 
         //grader doesnt like "Updating store and then rendering each time is expected and some event handlers do not do this."
-        render();
+        renderError();
       });
   });
 };
@@ -175,7 +175,7 @@ const handleDeletedBookmarkClick = function () {
       console.log(error);
       store.setError(error.message);
       alert(error.message);
-      render();
+      renderError();
     });
   });
 };
