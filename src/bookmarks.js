@@ -148,7 +148,7 @@ const handleNewBookmarkSubmit = function () {
 const handleFilterView = function () {
   $('main').on('change', '#filter', event => {
     event.preventDefault();
-    let filter = $('#filter option:selected').val();
+    let filter = parseInt($('option:selected').val());
     let bookmarks = [...store.bookmarks];
     let filterView =[];
     console.log(filter);
@@ -276,5 +276,3 @@ export default {
   render,
   eventListeners
 };
-//**Read through and understand what you went over with Teddy */
-//Bringing everything together, render template first, upon seeing get errors, upon errors handle events,
